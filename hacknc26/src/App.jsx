@@ -1,3 +1,5 @@
+import './App.css'
+import Chatbot from './components/Chatbot/Chatbot.jsx'
 import { useState } from 'react'
 import LanguageSelect from './components/UserConfig/LanguageSelect/LanguageSelect.jsx'
 import TopicSelect from './components/UserConfig/TopicSelect/TopicSelect.jsx'
