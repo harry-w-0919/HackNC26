@@ -1,0 +1,69 @@
+# #######################################################################
+# Dependencies
+# #######################################################################
+node_modules/
+jspm_packages/
+.pnpm-store/
+
+# #######################################################################
+# Production Build Outputs
+# #######################################################################
+build/
+dist/
+out/
+.next/
+.react-router/
+
+# #######################################################################
+# Environment Variables & Secrets (NEVER commit these)
+# #######################################################################
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# #######################################################################
+# Logs, Diagnostics, and Crash Dumps
+# #######################################################################
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# #######################################################################
+# Testing & Coverage
+# #######################################################################
+coverage/
+.nyc_output/
+.jest/
+__snapshots__/
+
+# #######################################################################
+# IDEs, Editors, and OS-Specific Files
+# #######################################################################
+# Editor settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
