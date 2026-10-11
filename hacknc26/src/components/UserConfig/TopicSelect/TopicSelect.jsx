@@ -40,7 +40,7 @@ const examplesByLanguage = {
     {
       label: '文化祭 (School cultural festival)',
       topic: 'Planning a class café for the school cultural festival (文化祭)',
-      persona: 'Japanese high school classmate',
+      persona: 'Japanese student',
     },
     {
       label: '花火大会 (Fireworks festival)',
